@@ -1,0 +1,39 @@
+body{
+
+	background-color: lightyellow;
+	color: green;
+	border-style: double;
+	border-color: black;
+	margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 2cm;
+    font-family: Helvetica;
+}
+input[type=text], [type=password], [type=number], [type=select] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+}
+h1{
+	color: lightblue;
+}
+a{
+	border: 2px solid lightgreen;
+    border-radius: 5px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
